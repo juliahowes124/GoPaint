@@ -8,6 +8,7 @@ import (
 
 type BrushType = int
 
+//Define drawing area
 type PxCanvasConfig struct {
 	DrawingArea    fyne.Size
 	CanvasOffset   fyne.Position

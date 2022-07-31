@@ -9,6 +9,8 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 
+// Swatch -- a box that can be clicked to select a color
+// must implement the Wiget interface (CreateRenderer)
 type Swatch struct {
 	widget.BaseWidget
 	Selected     bool
